@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "es5", // 编译的目标版本
+    "lib": [ // 编译过程需要那些文件
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true, 
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react"
+  },
+  "include": [
+    "src"
+  ]
+}
